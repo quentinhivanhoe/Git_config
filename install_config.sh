@@ -61,3 +61,12 @@ git config --global --replace-all alias.unstaged 'restore --staged'
 # set alias to push
 # quick push
 git config --global --replace-all alias.p 'push'
+
+# alias br
+# set alias to create a new / list branch
+# quickly create and set a new / list branch
+git config --global --replace-all alias.br 'branch'
+
+# alias swh
+# set alias to quickly switch to branch
+git config --global --replace-all alias.swh 'switch'
