@@ -56,3 +56,8 @@ git config --global --replace-all alias.unmodif 'restore'
 # set alias to unstaged files
 # usefull to not commit useless files
 git config --global --replace-all alias.unstaged 'restore --staged'
+
+# alias psh
+# set alias to push
+# quick push
+git config --global --replace-all alias.p 'push'
