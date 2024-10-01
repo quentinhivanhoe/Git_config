@@ -3,9 +3,9 @@
 
 # alias lg
 # set alias to a prettier git log
-# log the abrieve hash commits, commit author, commit relaive date and the suject of the commit
+# log the abrieve hash commits, commit author, commit relaive date, suject of the commit and short stat
 # example : 74c8b9e - GitHub, 30 minutes ago : Initial commit
-git config --global --replace-all alias.lg 'log --decorate --pretty=format:"%h - %cn, %cr : %s"'
+git config --global --replace-all alias.lg 'log --decorate --stat --pretty=format:"%h - %cn, %cr : %s"'
 
 # alias rst-stg
 # set alias to unstaged file
