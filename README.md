@@ -1,2 +1,3 @@
-# Git_config
-my simple git config
+# Personal git configuration
+## description 
+This is a repository for all my git config to use git faster and easier
