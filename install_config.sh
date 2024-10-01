@@ -41,3 +41,18 @@ git config --global --replace-all alias.ci-am 'commit -am'
 # set alias for remove staged files
 # usefull to delete unwanted staged file
 git config --global --replace-all alias.rm-stg 'rm --cached'
+
+# alias ci-amd
+# set alias for add forgotten files on one commits
+# usefull when you have forget a file
+git config --global --replace-all alias.ci-amd 'commit --amend'
+
+# alias unmodif
+# set alias to unmodifing file 
+# usefull to go back to the ole ersion of the file
+git config --global --replace-all alias.unmodif 'restore'
+
+# alias unstaged
+# set alias to unstaged files
+# usefull to not commit useless files
+git config --global --replace-all alias.unstaged 'restore --staged'
