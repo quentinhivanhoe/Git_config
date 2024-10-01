@@ -36,3 +36,8 @@ git config --global --replace-all alias.ci 'commit -m'
 # set alias to commit tracked files
 # usefull to commit only modified files
 git config --global --replace-all alias.ci-am 'commit -am'
+
+# alias rm-stg
+# set alias for remove staged files
+# usefull to delete unwanted staged file
+git config --global --replace-all alias.rm-stg 'rm --cached'
