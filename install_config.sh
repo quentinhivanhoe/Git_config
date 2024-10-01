@@ -74,4 +74,3 @@ git config --global --replace-all alias.swh 'switch'
 #alias new-br
 # set alias to create a new branch and switch on it
 git config --global --replace-all alias.new-br 'switch -c'test
-test
