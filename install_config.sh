@@ -48,7 +48,7 @@ git config --global --replace-all alias.rm-stg 'rm --cached'
 git config --global --replace-all alias.ci-amd 'commit --amend'
 
 # alias unmodif
-# set alias to unmodifing file 
+# set alias to unmodifing file
 # usefull to go back to the ole ersion of the file
 git config --global --replace-all alias.unmodif 'restore'
 
@@ -73,4 +73,4 @@ git config --global --replace-all alias.swh 'switch'
 
 #alias new-br
 # set alias to create a new branch and switch on it
-git config --global --replace-all alias.new-br 'switch -c'test
+git config --global --replace-all alias.new-br 'switch -c'
